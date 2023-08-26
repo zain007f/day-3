@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* header start */
+.menu-container{
+    background-color:rgb(37, 37, 37);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo-photo{
+width: 120px;
+}
+
+.menus{
+    display: flex;
+}
+
+.item{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 18px;
+
+}
+.item:hover{
+    color: blue;
+    cursor: pointer;
+}
+/* header end */
+
+
+/* banner start */
+
+.banner-img{
+    width: 300px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh; 
+    align-items: center;
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h-1{
+    font-size: 55px;
+    font-weight: bold;
+}
+.pra{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    margin-top: 10px;
+    padding: 10px 15px;
+    color:white;
+    background-color: red;
+    border:none;
+    border-radius: 5px;
+}
+
+/* banner end */
